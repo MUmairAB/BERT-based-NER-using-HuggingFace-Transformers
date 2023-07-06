@@ -1,4 +1,4 @@
-# BERT-based-NER-using-HuggingFace-Transformers
+# BERT-based NER using HuggingFace Transformers
 
 The model is deployed on HuggingFace Hub and can be accessed [here](https://huggingface.co/MUmairAB/bert-ner).
 
@@ -12,6 +12,7 @@ It achieves the following results on the evaluation set:
 ## Model description
 
 Model: "tf_bert_for_token_classification"
+```
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
@@ -26,7 +27,7 @@ Total params: 107,726,601
 Trainable params: 107,726,601
 Non-trainable params: 0
 _________________________________________________________________
-
+```
 ## Framework versions
 
 - Transformers 4.30.2
