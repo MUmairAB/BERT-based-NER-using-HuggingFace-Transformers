@@ -8,6 +8,25 @@ It achieves the following results on the evaluation set:
 - Validation Loss: 0.0880
 - Epoch: 19
 
+## How to use this model
+
+```
+#Install the transformers library
+!pip install transformers
+
+#Import the pipeline
+from transformers import pipeline
+
+#Import the model from HuggingFace
+checkpoint = "MUmairAB/bert-ner"
+model = pipeline(task="token-classification",
+                 model=checkpoint)
+
+#Use the model
+raw_text = "My name is umair and i work at Swits AI in Antarctica."
+model(raw_text)
+
+```
 
 ## Model description
 
